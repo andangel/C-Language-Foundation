@@ -36,6 +36,6 @@ int main(int argc, const char * argv[]) {
         printf("函数外数组的值:%d数组地址:%p",array[i],&array[i]);
     }
     printf("\n");
-    printf("这说明传递引用类型参数,两个数值在相同的内存地址,值发生改变.传递的是引用(指针)\n");
+    printf("这说明传递非值类型参数,两个数值在相同的内存地址,值发生改变.传递的是地址(指针)\n");
     return 0;
 }
