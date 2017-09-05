@@ -11,15 +11,8 @@
 int main(int argc, const char * argv[]) {
     char names[][100]={
     "壹 贰 叁 肆 伍 陆 柒 捌 玖 拾",
-    "项目2",
-    "项目3",
-    "项目4",
-    "项目5",
-    "项目6",
-    "项目7",
-    "项目8",
-    "项目9",
-    "项目10",
+    "1 2 3 4 5 6 7 8 9 10",
+    "One Two Three Four Five Six Seven Eight Nine Ten",
     };
     for (int i=0;i<sizeof(names)/sizeof(names[0]);i++)//二维数组总长度/一维数组总长度
     {
