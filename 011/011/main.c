@@ -4,6 +4,7 @@
 //
 //  Created by 凯凯 on 2017/9/5.
 //  Copyright © 2017年 凯凯. All rights reserved.
+//  函数值传递与地址传递
 //
 
 #include <stdio.h>
